@@ -1,0 +1,80 @@
+
+/* Estilo básico para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    background-color: #f4f4f4; /* Cor de fundo do corpo da página */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+nav ul {
+    list-style-type: none; /* Remove a lista padrão */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens do menu na horizontal */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto do menu */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; /* Define a largura das seções */
+    background-color: white; /* Cor de fundo das seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra às seções */
+}
+
+h2 {
+    color: #333; /* Cor do título */
+    font-size: 24px; /* Tamanho do título */
+}
+
+/* Estilo do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column; /* Exibe os campos do formulário na vertical */
+    max-width: 500px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+form label {
+    margin-bottom: 5px; /* Espaçamento abaixo das labels */
+}
+
+form input, form textarea {
+    margin-bottom: 15px; /* Espaçamento abaixo dos campos */
+    padding: 10px; /* Espaçamento interno nos campos */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte nos campos */
+}
+
+form button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Altera o cursor quando passa por cima do botão */
+}
+
+form button:hover {
+    background-color: #555; /* Altera a cor do botão ao passar o mouse */
+}
